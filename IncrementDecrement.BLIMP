@@ -1,0 +1,5 @@
+inc DA 5;
+dec DA 5;
+
+GEHIKUNTZA inc;
+GUTXITU dec;

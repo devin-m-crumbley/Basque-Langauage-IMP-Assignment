@@ -1,0 +1,14 @@
+input1 DA 27;
+input2 DA 78;
+
+BADA (input1 BERDINAK input2)
+    GERO (ifTook DA 1;)
+
+    BESTELA (ifNotTook DA1;)
+
+foreverIncreasing DA 0;
+
+BADA (input1 BERDINGUTXIAGO input2)
+    GERO (BITARTEAN (EZ(FALTSUA)) ETA (foreverIncreasing BERDINGUTXIAGO 1000) (foreverIncreasing DA (foreverIncreasing GEHITU 1);))
+
+    BESTELA (EZOP;)

@@ -1,0 +1,17 @@
+input1 DA 7;
+
+ETENGAILUA (input1, 
+    1 : {
+        gotToOne DA 1;
+        yeeHaw DA 999;
+        }
+
+    3 : {
+        test DA 5;
+        }
+
+    7 : {
+        lest DA 934243;
+        herhseys DA 234;
+         }
+)

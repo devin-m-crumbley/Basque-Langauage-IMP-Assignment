@@ -1,0 +1,23 @@
+input1 DA 7;
+input2 DA 4;
+
+factorial DA
+{
+    factorialinternal1 DA factorialinput1;
+    factorialoutput1 DA factorialinput1;
+    RENTZAT (factorialinput1, EZ(1 BERDINAK factorialinput1), GUTXITU)
+    {
+        factorialoutput1 DA (factorialoutput1 BIDEKATU (factorialinternal1 KENDU 1));
+        factorialinternal1 DA (factorialinternal1 KENDU 1);
+    }
+}
+
+factorialinput1 DA input1;
+FUNTZIOA factorial;
+nfac DA factorialoutput1;
+
+factorialinput1 DA (input1 KENDU input2);
+FUNTZIOA factorial;
+nminusrfac DA factorialoutput1;
+
+output1 DA (nfac ZATITU (nminusrfac));

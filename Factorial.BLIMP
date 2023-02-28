@@ -1,0 +1,10 @@
+input1 DA 1000;
+
+x DA input1;
+y DA input1;
+output1 DA input1;
+RENTZAT (x, EZ(1 BERDINAK x), GUTXITU)
+{
+    output1 DA (output1 BIDEKATU (y KENDU 1));
+    y DA (y KENDU 1);
+}
